@@ -6,12 +6,12 @@ public abstract class Vehicles implements CarsSmokeTest {
     CarsSmokeTest carsSmokeTest = new CarsSmokeTest() {
         @Override
         public void startEngine() {
-            System.out.println("The engine started.");
+            //System.out.println("The engine started.");
         }
 
         @Override
         public void stopEngine() {
-            System.out.println("The engine stopped.");
+            //System.out.println("The engine stopped.");
         }
     };
 

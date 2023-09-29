@@ -1,15 +1,11 @@
+import java.util.Date;
+
 public interface InvoicesInterface {
-    String issuer = null;
-    String receiver = null;
-    double net = 0;
-    int vat = 0;
-    double gros = 0;
 
-    void issueProFormaInvoice();
+    void issueTheInvoice(String issuer, String receiver, double net);
 
-    void issueInvoice();
 
-    void issueCorrectionInvoice();
+    void issueTheInvoice();
 
     void sendReminder();
 
